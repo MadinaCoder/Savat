@@ -1,0 +1,403 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+span, a {
+    display: inline-block;
+}
+
+.pg1 {
+    background-image: url('shapes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 60px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+@media only screen and (max-width:520px) {
+    .header {
+        display: block;
+    }.header-right {
+        margin-left: 20px;
+    }
+}
+
+
+.header-right {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width:560px) {
+    .header-right {
+        margin-right: 0;
+    }
+}
+
+
+@media only screen and (max-width:416px) {
+    .header-right  {
+        font-size: 18px;
+    }
+}
+
+.fa-solid {
+    color: #FCCB46;
+}
+
+.link {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.pg1main {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media only screen and (max-width:602px) {
+    .pg1main {
+        display: block;
+    }.img{
+        text-align: center;
+    }
+}
+
+.foods {
+    width: 300px;
+}
+
+.info-div {
+    width: 400px;
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+@media only screen and (max-width:996px) {
+    .info-div {
+        width: 400px;
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width:517px) {
+    .info-div {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:359px) {
+    .info-div {
+        width: 270px;
+    }
+}
+
+
+
+
+.pg1txt {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:1034px) {
+    .pg1title {
+        font-size: 28px;
+    }
+}
+
+.img   {
+    width: 400px;
+    margin-right: 110px;
+}
+
+.btn {
+    background-color: #FCCB46;
+    color: black;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.pg2{
+    text-align: center;
+    font-size: 22px;
+}
+
+.pg2txt1 {
+    color: #FCCB46;
+    margin-top: 40px;
+}
+
+.pg2txt2 {
+    margin: 30px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+
+
+.img-div {
+    display: flex;
+    align-items: center;
+    padding-bottom: 120px;
+    padding-left: 80px;
+}
+
+@media only screen and (max-width:414px) {
+    .img-div {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:995px) {
+    .img-div {
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 0;
+    }.img {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+.imgtitle {
+    font-weight: bold;
+}
+
+.pg3 {
+    text-align: center;
+}
+
+.pg3txt {
+    color: #FCCB46;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.pg3h2 {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.pg3img {
+    width: 180px;
+}
+
+.item-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media only screen and (max-width:342px) {
+    .item-div {
+        text-align: center;
+    }
+}
+
+
+.box {
+    background-color: #F1F1F1;
+    width: 20%;
+    margin: 10px;
+    height: 300px;
+    position: relative;
+    box-shadow: 2px 2px 2px 0.9px grey;
+    border-radius: 16px;
+}
+
+.name {
+    background-color:white;
+    width: 100%;
+    padding-top: 20px;
+    left: 0;
+    position: absolute;
+    padding-bottom: 10px;
+    border-radius: 50px 50px 16px 16px;
+    text-align: center;
+}
+
+.txt2 {
+    margin-top: 24px;
+    text-align-last: left;
+    padding-left: 10px;
+}
+
+.fa-heart {
+    margin-top: 24px;
+    margin-right: 10px;
+}
+
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pg3btn {
+    padding: 20px;
+    background-color: #FCCB46;
+    border-radius: 25px;
+    border: none;
+    margin-top: 60px;
+    font-size: 18px;
+}
+
+.pg4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+
+.pg4txt {
+    color: #FCCB46;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.pg4title {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.pg5 {
+    background-color: #FEF9EB;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin: 0;
+}
+
+.logo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img2 {
+    width: 65px;
+}
+
+.pg5div {
+    width: 300px;
+    text-align: center;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.fa-brands {
+    font-size: 22px;
+}
+
+@media only screen and (max-width:969px) {
+    .box {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:910px) {
+    .food-img {
+        width: 400px;
+    }.rating-img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .food-img {
+        width: 300px;
+    }.rating-img {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width:680px) {
+    .pg5div{
+        width: 400px;
+        margin: 20px;
+    }.pg4title {
+        font-size: 23px;
+    }.pg4txt {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:610px) {
+    .pg4title {
+        font-size: 19px;
+    }.pg4txt {
+        font-size: 16px;
+    }.food-img{
+        width: 260px;
+    }.rating-img {
+        width: 170px;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .pg4title {
+        font-size: 15px;
+    }.pg4txt {
+        font-size: 13px;
+    }.food-img{
+        width: 200px;
+    }.rating-img {
+        width: 130px;
+    }
+}
+
+
+.linkline {
+    border-bottom: 3px solid #FCCB46;
+}
+
+.item {
+    background-color: white;
+    border-radius: 15px;
+    width: 150px;
+    text-align: center;
+}
