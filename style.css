@@ -372,7 +372,7 @@ span, a {
     }.pg4txt {
         font-size: 17px;
     }.food-img{
-        width: 250px;
+        width: 240px;
     }.rating-img {
         width: 200px;
     }
@@ -384,9 +384,9 @@ span, a {
     }.pg4txt {
         font-size: 16px;
     }.food-img{
-        width: 240px;
+        width: 220px;
     }.rating-img {
-        width: 130px;
+        width: 160px;
     }
 }
 
