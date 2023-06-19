@@ -360,19 +360,19 @@ span, a {
         width: 400px;
         margin: 20px;
     }.pg4title {
-        font-size: 23px;
+        font-size: 25px;
     }.pg4txt {
-        font-size: 18px;
+        font-size: 21px;
     }
 }
 
 @media only screen and (max-width:610px) {
     .pg4title {
-        font-size: 22px;
+        font-size: 23px;
     }.pg4txt {
         font-size: 19px;
     }.food-img{
-        width: 260px;
+        width: 290px;
     }.rating-img {
         width: 200px;
     }
@@ -380,11 +380,11 @@ span, a {
 
 @media only screen and (max-width:430px) {
     .pg4title {
-        font-size: 15px;
+        font-size: 20px;
     }.pg4txt {
-        font-size: 13px;
+        font-size: 18px;
     }.food-img{
-        width: 200px;
+        width: 270px;
     }.rating-img {
         width: 130px;
     }
