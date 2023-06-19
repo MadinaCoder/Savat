@@ -349,7 +349,7 @@ span, a {
 
 @media only screen and (max-width:720px) {
     .food-img {
-        width: 300px;
+        width: 280px;
     }.rating-img {
         width: 200px;
     }
@@ -368,11 +368,11 @@ span, a {
 
 @media only screen and (max-width:610px) {
     .pg4title {
-        font-size: 23px;
-    }.pg4txt {
         font-size: 19px;
+    }.pg4txt {
+        font-size: 17px;
     }.food-img{
-        width: 290px;
+        width: 250px;
     }.rating-img {
         width: 200px;
     }
@@ -384,7 +384,7 @@ span, a {
     }.pg4txt {
         font-size: 16px;
     }.food-img{
-        width: 270px;
+        width: 240px;
     }.rating-img {
         width: 130px;
     }
